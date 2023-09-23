@@ -3,8 +3,11 @@ import pandas as pd
 from langchain.agents import create_csv_agent
 from langchain.llms import OpenAI
 
-# Set your OpenAI API key
-os.environ["OPENAI_API_KEY"] = "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"
+# Get the OpenAI API key from user input
+openai_api_key = input("Enter your OpenAI API key: ")
+
+# Set the OpenAI API key as an environment variable
+os.environ["OPENAI_API_KEY"] = openai_api_key
 
 # Get paths to CSV files from user input
 holdings_csv_path = input("Enter the path to holdings.csv: ")
