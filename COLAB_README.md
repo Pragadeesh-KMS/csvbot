@@ -1,5 +1,9 @@
 Certainly, here's a `README.md` for your Python code, including references to the code snippets:
 
+**Incase you are using terminal or cmd for testing:**
+
+- [README.md](https://github.com/Pragadeesh-KMS/csvbot/blob/main/README.md)
+
 
 # Python Code for CSV Data Analysis and Q&A using Langchain and OpenAI
 
