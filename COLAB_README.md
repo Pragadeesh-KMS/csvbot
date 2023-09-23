@@ -1,7 +1,3 @@
-**Incase you are using terminal or cmd for testing:**
-- [README.md](https://github.com/Pragadeesh-KMS/csvbot/blob/main/README.md)
-
-
 # Python Code for CSV Data Analysis and Q&A using Langchain and OpenAI
 
 This repository contains Python code for analyzing CSV data and answering questions related to the data using the Langchain library and the OpenAI API.
