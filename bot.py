@@ -10,8 +10,8 @@ openai_api_key = input("Enter your OpenAI API key: ")
 os.environ["OPENAI_API_KEY"] = openai_api_key
 
 # Get paths to CSV files from user input
-holdings_csv_path = input("Enter the path to your csv file: ")
-trades_csv_path = input("Enter the path to your csv file: ")
+holdings_csv_path = input("Enter the path to your csv file (holdings.csv) : ")
+trades_csv_path = input("Enter the path to your csv file (trades.csv) : ")
 
 # Load CSV data into Pandas DataFrames
 df1 = pd.read_csv(holdings_csv_path)
