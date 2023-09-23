@@ -1,7 +1,7 @@
 
 # README for CSV Query Tool
 
-This Python script is a CSV query tool that allows you to search for information in two CSV files using the OpenAI GPT-3 language model. It provides responses based on user queries related to the content of these CSV files.
+This Python script is a CSV query tool that allows you to search for information in two CSV files using the OpenAI GPT-3 language model using Langchain library. It provides responses based on user queries related to the content of these CSV files.
 
 **Incase you are using Google colab for testing:**
 - [![Open in Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/16tCivijJ2n6xqwuyYnv3_lIeybGJeCTX?usp=sharing)
