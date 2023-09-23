@@ -26,8 +26,16 @@ Before running the code, make sure you have the following prerequisites installe
    pip -q install langchain openai
    import os
    ```
-
-2. Replace `"YOUR_OPENAI_API_KEY"` in the code with your actual OpenAI API key.
+   
+   ```bash
+   import pandas as pd
+   ```
+   
+   ```bash
+   from langchain.agents import create_csv_agent
+   from langchain.llms import OpenAI
+   ```
+1. Replace `"YOUR_OPENAI_API_KEY"` in the code with your actual OpenAI API key.
 
 ### Usage
 
