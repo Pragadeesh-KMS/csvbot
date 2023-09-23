@@ -40,7 +40,7 @@ response_from_agent1 = agents[1].run(user_input)
 if response_from_agent0 and response_from_agent1:
 # If the question is found in both agents, combine the responses
     combined_response = f"From holdings.csv: {response_from_agent0}\nFrom trades.csv: {response_from_agent1}"
-    print("The answer is found in both the csv files!")
+    print("RESPONSE: ")
     print(combined_response)
 elif response_from_agent0:
 # If the question is found only in the first agent, print its response
